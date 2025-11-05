@@ -1,4 +1,4 @@
-##  Overview
+## Overview
 The **Task Management System** is a RESTful web application designed to help users create, manage, and track tasks efficiently.
 The goal is to build a backend service using **Spring Boot** that supports CRUD operations for tasks, user management, and basic status tracking.
 
@@ -17,26 +17,26 @@ To design and implement a scalable, maintainable REST API that allows:
 
 ###  Task Operations
 - **Create Task**
-  - Endpoint: `POST /tasks`
-  - Input: task title, description, due date, status (default: PENDING)
-  - Output: created task details with unique ID.
+    - Endpoint: `POST /tasks`
+    - Input: task title, description, due date, status (default: PENDING)
+    - Output: created task details with unique ID.
 
 - **View All Tasks**
-  - Endpoint: `GET /tasks`
-  - Output: list of all tasks.
+    - Endpoint: `GET /tasks`
+    - Output: list of all tasks.
 
 - **View Task by ID**
-  - Endpoint: `GET /tasks/{id}`
-  - Output: task details for the given ID.
+    - Endpoint: `GET /tasks/{id}`
+    - Output: task details for the given ID.
 
 - **Update Task**
-  - Endpoint: `PUT /tasks/{id}`
-  - Input: updated fields (title, description, due date, or status)
-  - Output: updated task details.
+    - Endpoint: `PUT /tasks/{id}`
+    - Input: updated fields (title, description, due date, or status)
+    - Output: updated task details.
 
 - **Delete Task**
-  - Endpoint: `DELETE /tasks/{id}`
-  - Output: confirmation of deletion.
+    - Endpoint: `DELETE /tasks/{id}`
+    - Output: confirmation of deletion.
 
 ---
 
